@@ -1,0 +1,44 @@
+body {
+	font-family: geneva;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  color: darkblue;
+  margin-bottom: .3em;
+  text-decoration: underline;
+}
+
+h2 {
+	text-align: center;
+	font-size: 3em;
+	color: green;
+	margin-bottom: .3em;
+}
+
+h3 {
+	text-align: center;
+	color: maroon;
+}
+
+ul {
+	font-size: 1em;
+	text-indent: 100px;
+}
+
+img {
+	float: right;
+	border: 25px solid black;
+	margin: 0px 0px 15px 20px;
+}
+
+p {
+	font-size: 20px;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+
+dl {
+	text-align: center;
+}
