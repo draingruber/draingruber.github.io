@@ -11,14 +11,12 @@ h1 {
 }
 
 h2 {
-	text-align: center;
 	font-size: 3em;
 	color: green;
 	margin-bottom: .3em;
 }
 
 h3 {
-	text-align: center;
 	color: maroon;
 }
 
@@ -29,7 +27,6 @@ ul {
 
 img {
 	float: right;
-	border: 25px solid black;
 	margin: 0px 0px 15px 20px;
 }
 
@@ -39,6 +36,3 @@ p {
 	margin-right: 50px;
 }
 
-dl {
-	text-align: center;
-}

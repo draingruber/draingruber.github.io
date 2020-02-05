@@ -1,10 +1,35 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
 
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Mobile Web App Development</title>
-    <link rel="stylesheet"  type="text/css" href="stylesheet.css">
+<head>
+	<meta charset="utf-8">
+	<!--[if ltIE9]
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+	</script>
+	<![endif]-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script> 
+		
+		$(document).ready(function(){
+  			$("button").click(function(){
+				$("h1").animate({fontSize: '8em'});
+				$("h1").css({"color": "green"});
+				$("img").css({"border": "10px dotted red"});
+			});
+		});
+	</script>
+	<script> 
+		$(document).ready(function(){
+  			$("button").click(function(){
+				$("h1").animate({fontSize: '4em'});
+			});
+		});
+	</script>
+    
+	<title>Mobile Web App Development</title>
+    	<link rel="stylesheet"  type="text/css" href="stylesheet.css">
+
   </head>
 	
   <body>
@@ -27,6 +52,9 @@
 			<dt><a href = "https://websitesetup.org/html-tutorial-beginners/" target="_blank">WebsiteSetup HTML Tutorial</a></dt>
 			<dd>This website walks you through using HTML and assumes you know nothing.  It, too, has useful examples.</dd>
 		</dl>
+
+<button>Click to Animate</button>
+
 
   </body> 
 
