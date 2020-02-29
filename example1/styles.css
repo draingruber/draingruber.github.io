@@ -19,8 +19,7 @@
 body {
 	background: #f9f3e9;
 	color: #594846;
-	font-family: "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
-	font-size: 100%;
+	font: "Adobe Caslon Pro", Georgia, "Times New Roman", serif;
 }
 
 a, a:visited {
@@ -65,7 +64,6 @@ dt {
 .navigation {
   background-color:#7b96bc;
   border-bottom: 2px solid #594846;
-  overflow: auto;
 }
 
 .navigation ul li {
@@ -146,10 +144,3 @@ body, .header, .navigation, .footer {
   margin: 10px 260px 0 250px;
   width: 460px;
 }
-
-.header { display: none; }
-body, .footer, .navigation {width: 320px;}
-.column {margin: 10px 0; border-bottom: 1px dashed #7b96bc;}
-
-.navigation ul li {display: block; width; 320px; text-align: center; padding; 0.3em }
-
