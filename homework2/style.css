@@ -114,15 +114,17 @@
 img, iframe {max-width:100%;} 	
 
 @media screen and (max-width:480px) {
-	div#header {width: 100%}
-	div#footer {width: 100%}
-	div.content {width: 100%}
+	div#header {width: 100%;}
+	div#footer {width: 100%;}
+	div.content {width: 100%;}
+	div.col-right {width: 100%;}
+	div.sidebar-left {width: 100%;}
 }
 
 @media screen and (min-width: 481px) {
-	div#header {width: 100%}
-	div#footer {width: 100%}
-	div.content {width: 100%}
-	div.col-right {width: 80%}
-	div.sidebar-left {width: 200px}
+	div#header {width: 100%;}
+	div#footer {width: 100%;}
+	div.content {width: 100%;}
+	div.col-right {width: 80%;}
+	div.sidebar-left {width: 200px;}
 }
