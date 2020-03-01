@@ -58,12 +58,11 @@
 	}
 	
 	div.content{
-		margin:0 auto;
+		margin:15px auto;
 	}
 				
 	div.col-right{
 		float:right;
-		padding:0 10px 0 50px;
 		}
 		
 	div.sidebar-left{
