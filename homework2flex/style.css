@@ -1,0 +1,110 @@
+	body, h1, h2, h3, p, img, ul, li{
+		border:0; margin:0; padding:0;
+	}
+		/*the above is a very basic reset rule.  Every browser has a slightly different default for HTML tags.  By using this simple CSS reset, all the more glaring styles 
+		are reset and can now be set to whatever properties that would suit your website best. */
+	
+	.wrapper {
+		width: 100%;
+		display: flex;
+		flex-flow: row wrap;
+		text-align: left;
+		background:#eaf8fb;
+		font-family:Arial, Helvetica, sans-serif; 
+		
+	}
+
+	.wrapper > * {
+  		padding: 10px;
+  		
+	}
+
+	.sidebar {
+		width: 25%;
+	    }
+
+	.head {
+		width: 100%;
+		background-color:#333; 
+		background-image:url(images/headerbkgd.png); 
+		background-repeat:no-repeat; 
+		background-position:left bottom;
+		color:#fff;
+		}
+
+	.content {
+		padding: 5px;
+	}	
+	
+	.foot{
+		width: 100%;
+		background-color:#c4d5d9;
+		text-align:center;
+	}
+	
+	p{
+		letter-spacing:.04em; 
+		line-height:1.3em; 
+	}
+		
+	
+		
+	ul.navigation {
+		list-style:none;	
+		margin-top:20px;
+	}
+					
+	ul.navigation li a{
+		background:#4a4a4a;
+		color:#fff;
+		-moz-border-radius:2px; 
+		webkit-border-radius:2px; 
+		border-radius:2px;
+		border:1px solid #595959; 
+		padding:3px 10px;
+		text-decoration:none; 
+	}
+						
+	ul.navigation li a:hover{
+		background-color:#000; 
+	}
+		
+	.sidebar a{
+		color:#445e64;	
+	}
+	
+	.sidebar a:hover{
+		text-decoration:none
+	}	
+	
+	.list{
+		border-bottom:1px solid #c3dce1; 
+		margin-left: 5px;	
+	}
+	.list li{
+		margin-bottom:10px
+	}
+	.list li a{
+		font-weight:bold;
+		text-transform:uppercase;
+		font-size:11px;	
+	}
+				
+	
+
+@media all and (max-width: 480px) {
+	.head 		{order: 1;}
+	.sidebar 	{order: 2;}
+	.content 	{order: 3;}
+	.foot	 	{order: 4;}
+}
+
+@media all and (min-width: 481px) {
+	.content {flex: 3 0;}
+	.head 		{order: 1;}
+	.sidebar 	{order: 2; width: 25%;}
+	.content	{order: 3; width: 75%;}
+	.foot		{order: 4;}
+
+
+}
