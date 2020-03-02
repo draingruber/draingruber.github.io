@@ -10,7 +10,6 @@
 		text-align: left;
 		background:#eaf8fb;
 		font-family:Arial, Helvetica, sans-serif; 
-		
 	}
 
 	.wrapper > * {
@@ -53,7 +52,7 @@
 		webkit-border-radius:2px; 
 		border-radius:2px;
 		border:1px solid #595959; 
-		padding:3px 10px;
+		padding:3px 10px 3px 10px;
 		text-decoration:none; 
 	}
 						
