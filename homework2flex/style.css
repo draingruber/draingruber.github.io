@@ -5,7 +5,6 @@
 		are reset and can now be set to whatever properties that would suit your website best. */
 	
 	.wrapper {
-		width: 100%;
 		display: flex;
 		flex-flow: row wrap;
 		text-align: left;
@@ -16,12 +15,7 @@
 
 	.wrapper > * {
   		padding: 10px;
-  		
 	}
-
-	.sidebar {
-		width: 25%;
-	    }
 
 	.head {
 		width: 100%;
@@ -46,8 +40,6 @@
 		letter-spacing:.04em; 
 		line-height:1.3em; 
 	}
-		
-	
 		
 	ul.navigation {
 		list-style:none;	
@@ -90,10 +82,11 @@
 		font-size:11px;	
 	}
 				
-	
+	.wrapper {width: 100%;}	
+	.sidebar {width: 25%;}
 
 @media all and (max-width: 480px) {
-	.sidebar {width: 100%;}
+	.sidebar 	{width: 100%;}
 	.head 		{order: 1;}
 	.sidebar 	{order: 2;}
 	.content 	{order: 3;}
@@ -101,10 +94,10 @@
 }
 
 @media all and (min-width: 481px) {
-	.content {flex: 3 0;}
+	.content {}
 	.head 		{order: 1;}
 	.sidebar 	{order: 2; width: 25%;}
-	.content	{order: 3; width: 75%;}
+	.content	{order: 3; width: 75%; flex: 3 0;}
 	.foot		{order: 4;}
 
 
