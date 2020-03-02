@@ -70,7 +70,8 @@
 	
 	.list{
 		border-bottom:1px solid #c3dce1; 
-		margin-left: 5px;	
+		margin-left: 5px;
+		padding: 0 0 0 5px;
 	}
 	.list li{
 		margin-bottom:10px
