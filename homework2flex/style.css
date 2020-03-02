@@ -93,6 +93,7 @@
 	
 
 @media all and (max-width: 480px) {
+	.sidebar {width: 100%;}
 	.head 		{order: 1;}
 	.sidebar 	{order: 2;}
 	.content 	{order: 3;}
