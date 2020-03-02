@@ -85,7 +85,7 @@
 	.wrapper {width: 100%;}	
 	.sidebar {
 		width: 25%;
-		padding: 1px 1px 1px 15x;}
+		padding: 1px 1px 1px 5px;}
 
 @media all and (max-width: 480px) {
 	.sidebar 	{width: 100%;}
