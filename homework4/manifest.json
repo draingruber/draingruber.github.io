@@ -1,0 +1,22 @@
+{
+  "short_name": "PWA",
+  "name": "My PWA",
+  "description": "Deborah Raingruber's PWA",
+  "icons": [
+    {
+      "src": "/images/icon_lightblue.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon_lightgold.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6"
+}
