@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">	</script>
+
+	<title> 
+	My PWA
+	</title> 
+		<script> 
+		$(document).ready(function() { 
+			// Change background image of a div by clicking on the button 
+		$("#blueButton").click(function() { var imageUrl = "images/lightblue.jpg"; 
+		$(".bg").css("background-image", "url(" + imageUrl + ")"); 
+			}); 
+		}); 
+	</script> 
+
+		<script> 
+		$(document).ready(function() { 
+			// Change background image of a div by clicking on the button 
+		$("#goldButton").click(function() { var imageUrl = "images/lightgold.jpg"; 
+		$(".bg").css("background-image", "url(" + imageUrl + ")"); 
+			}); 
+		}); 
+	</script>
+
+<script>
+      // Add a global error event listener early on in the page load, to help ensure that browsers
+      // which don't support specific functionality still end up displaying a meaningful message.
+      window.addEventListener('error', function(error) {
+        if (ChromeSamples && ChromeSamples.setStatus) {
+          console.error(error);
+          ChromeSamples.setStatus(error.message + ' (Your browser may not support this feature.)');
+          error.preventDefault();
+        }
+      });
+    </script>
+
+	<link rel="stylesheet"  type="text/css" href="stylesheet.css">
+</head> 
+
+<body>
+<div class = "topnav">
+	<h1>My PWA</h1> 
+	<button type="button" id = "blueButton"> background Light Blue</button> 
+	<button type="button" id = "goldButton"> background Light Gold</button>
+</div>
+
+<div class ="bg">
+	
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6">
+	<p>A PWA is a Progressive Web Application.  It is a new class of websites that allow for native app experiences in just a browser.  A PWA is distinguished by its use of push notifications, cache, and secure connection.  The PWA must have usability offline as well.  The tag line is that a PWA provides a rich web-based experience.</p>
+      </div>
+      <div class="col-md-6">
+        <p>A PWA must be secure and is only available over HTTPS.  It must have a manifest file that determines the experience and behavior of the PWA and be installable from the menu.  It must have offline capabilities and be responsive. </p>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js');
+        }
+</script>
+</body>
+
+</html>
