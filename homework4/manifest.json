@@ -1,6 +1,6 @@
 {
   "name": "Raingruber PWA",
-  "short_name": "Weather",
+  "short_name": "My PWA",
   "icons": [{
     "src": "images/iconP_lightblue.png",
       "sizes": "192x192",
